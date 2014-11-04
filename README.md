@@ -7,4 +7,4 @@ The GUI uses the Qt4 library while for the video is used the SDL library.
 
 The UML is written using Dia, a free program that can be found here: http://dia-installer.de/
 
-The documentation uses Doxygen: doxygen.org
+The documentation uses Doxygen: http://doxygen.org
