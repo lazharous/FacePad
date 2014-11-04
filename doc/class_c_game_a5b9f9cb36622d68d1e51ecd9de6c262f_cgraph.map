@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_c_graphics.html#ab27e90f3091be3b5f6ea46b71899a637" title="CGraphics::blitImage" alt="" coords="227,5,371,35"/>
+<area shape="rect" href="$class_c_asteroid.html#abf4ac170dcd186fe6c80f8f5fa5d94f9" title="CAsteroid::Create" alt="" coords="237,59,360,88"/>
+<area shape="rect" href="$class_c_asteroid.html#a2cca9906c2bf1dc2b6b14cde0038b853" title="Imposta la visibilita&#39; dell&#39;asteroide." alt="" coords="229,112,368,141"/>
+<area shape="rect" href="$class_c_asteroid.html#abed3d32bb50047d4e0658259f44182f3" title="CAsteroid::Update" alt="" coords="236,165,361,195"/>
+</map>

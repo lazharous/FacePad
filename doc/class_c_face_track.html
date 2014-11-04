@@ -1,0 +1,273 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>FacePad: Riferimenti per la classe CFaceTrack</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Generato da Doxygen 1.6.3 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Pagina&nbsp;Principale</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classi</span></a></li>
+      <li><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Elenco&nbsp;dei&nbsp;tipi&nbsp;composti</span></a></li>
+      <li><a href="hierarchy.html"><span>Gerarchia&nbsp;delle&nbsp;classi</span></a></li>
+      <li><a href="functions.html"><span>Membri&nbsp;dei&nbsp;composti</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>Riferimenti per la classe CFaceTrack</h1><!-- doxytag: class="CFaceTrack" -->
+<p><code>#include &lt;<a class="el" href="face_track_8h_source.html">faceTrack.h</a>&gt;</code></p>
+
+<p>Base per <a class="el" href="class_c_game.html">CGame</a>.</p>
+
+<p><a href="class_c_face_track-members.html">Elenco di tutti i membri.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Membri pubblici</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_face_track.html#ad4fbec10cb10171caec26ac9edf1d93a">CFaceTrack</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Imposta i valori di base per l'utilizzo corretto della classe.  <a href="#ad4fbec10cb10171caec26ac9edf1d93a"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_face_track.html#ae31f8592e2e39d9af9453224505c1e25">Init</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_face_track.html#a7733a7e6a059d9e9016912388a044714">Destroy</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Si occupa di eliminare la finestra.  <a href="#a7733a7e6a059d9e9016912388a044714"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_position.html">Position</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_face_track.html#a7a0b3bfa0ef994a86e9dc069d089a59c">doTracking</a> (<a class="el" href="struct_position.html">Position</a> &amp;start)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_face_track.html#aabcce4707596d5547d7ef3115d6acaf2">showImage</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Mostra una finestra con il risultato delle elaborazioni sul rilevamento dei volti.  <a href="#aabcce4707596d5547d7ef3115d6acaf2"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_face_track.html#a3ee88e083f5c2674f44a728328559efe">Release</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Rilascia le risorse occupate in memoria.  <a href="#a3ee88e083f5c2674f44a728328559efe"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_face_track.html#a1659e03f79cd48e2b6f17b26e3d7a23a">Capture</a> ()</td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Descrizione dettagliata</h2>
+<p>Classe utilizzata per il rilevamento e il tracciamento dinamico di volti attraverso un flusso video proveniente da una webcam </p>
+<hr/><h2>Documentazione dei costruttori e dei distruttori</h2>
+<a class="anchor" id="ad4fbec10cb10171caec26ac9edf1d93a"></a><!-- doxytag: member="CFaceTrack::CFaceTrack" ref="ad4fbec10cb10171caec26ac9edf1d93a" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CFaceTrack::CFaceTrack </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Imposta i valori di base per l'utilizzo corretto della classe. </p>
+
+</div>
+</div>
+<hr/><h2>Documentazione delle funzioni membro</h2>
+<a class="anchor" id="a1659e03f79cd48e2b6f17b26e3d7a23a"></a><!-- doxytag: member="CFaceTrack::Capture" ref="a1659e03f79cd48e2b6f17b26e3d7a23a" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CFaceTrack::Capture </td>
+          <td>(</td>
+          <td class="paramtype">void&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Prende il flusso video dalla webcam e salva ogni singolo frame per la sua successiva elaborazione nella variabile (matrice) img </p>
+
+<p><div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dynsection">
+<div class="center"><img src="class_c_face_track_a1659e03f79cd48e2b6f17b26e3d7a23a_icgraph.png" border="0" usemap="#class_c_face_track_a1659e03f79cd48e2b6f17b26e3d7a23a_icgraph_map" alt=""></div>
+<map name="class_c_face_track_a1659e03f79cd48e2b6f17b26e3d7a23a_icgraph_map" id="class_c_face_track_a1659e03f79cd48e2b6f17b26e3d7a23a_icgraph">
+<area shape="rect" href="class_c_game.html#a0bb869f757fe995091503e6392cdf791" title="CGame::gameLoop" alt="" coords="197,5,331,35"/><area shape="rect" href="classqt4gui.html#a73f0cd58fd1490c2813b4c6671d2921d" title="qt4gui::play" alt="" coords="379,5,467,35"/><area shape="rect" href="classqt4gui.html#a0647e14a253c0ab25bd698b6c05afe09" title="qt4gui::qt4gui" alt="" coords="516,5,615,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7733a7e6a059d9e9016912388a044714"></a><!-- doxytag: member="CFaceTrack::Destroy" ref="a7733a7e6a059d9e9016912388a044714" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CFaceTrack::Destroy </td>
+          <td>(</td>
+          <td class="paramtype">void&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Si occupa di eliminare la finestra. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7a0b3bfa0ef994a86e9dc069d089a59c"></a><!-- doxytag: member="CFaceTrack::doTracking" ref="a7a0b3bfa0ef994a86e9dc069d089a59c" args="(Position &amp;start)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_position.html">Position</a> CFaceTrack::doTracking </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_position.html">Position</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>start</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Esegue il rilevamento del volto, prima crea un cerchio di base come punto di partenza per la rilevazione successiva del movimento, poi ridimensiona l'immagine del flusso per velocizzarne la rilevazione, successivamente converte l'immagine in scala di grigi. A questo punto trova il volto, disegna un cerchio intorno ad esso e ne ritorna la posizione. </p>
+<dl><dt><b>Parametri:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>start</em>&nbsp;</td><td>Contiene la posizione del cerchio usato come base. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Restituisce:</b></dt><dd>La posizione attuale del volto, se riconosciuto. </dd></dl>
+
+<p><div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dynsection">
+<div class="center"><img src="class_c_face_track_a7a0b3bfa0ef994a86e9dc069d089a59c_icgraph.png" border="0" usemap="#class_c_face_track_a7a0b3bfa0ef994a86e9dc069d089a59c_icgraph_map" alt=""></div>
+<map name="class_c_face_track_a7a0b3bfa0ef994a86e9dc069d089a59c_icgraph_map" id="class_c_face_track_a7a0b3bfa0ef994a86e9dc069d089a59c_icgraph">
+<area shape="rect" href="class_c_game.html#a0bb869f757fe995091503e6392cdf791" title="CGame::gameLoop" alt="" coords="216,5,349,35"/><area shape="rect" href="classqt4gui.html#a73f0cd58fd1490c2813b4c6671d2921d" title="qt4gui::play" alt="" coords="397,5,485,35"/><area shape="rect" href="classqt4gui.html#a0647e14a253c0ab25bd698b6c05afe09" title="qt4gui::qt4gui" alt="" coords="535,5,633,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae31f8592e2e39d9af9453224505c1e25"></a><!-- doxytag: member="CFaceTrack::Init" ref="ae31f8592e2e39d9af9453224505c1e25" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CFaceTrack::Init </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Si occupa di inizializzare il flusso video della webcam e di caricare i modelli statistici dei volti, oltre a ritornare vero se inizializza tutto correttamente </p>
+<dl class="return"><dt><b>Restituisce:</b></dt><dd>1 se inizializzata correttamente, 0 altrimenti </dd></dl>
+
+<p><div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dynsection">
+<div class="center"><img src="class_c_face_track_ae31f8592e2e39d9af9453224505c1e25_icgraph.png" border="0" usemap="#class_c_face_track_ae31f8592e2e39d9af9453224505c1e25_icgraph_map" alt=""></div>
+<map name="class_c_face_track_ae31f8592e2e39d9af9453224505c1e25_icgraph_map" id="class_c_face_track_ae31f8592e2e39d9af9453224505c1e25_icgraph">
+<area shape="rect" href="class_c_game.html#a64ad0ef38a9552470c69f7b98462b41e" title="Inizializza il gioco." alt="" coords="171,5,296,35"/><area shape="rect" href="classqt4gui.html#a73f0cd58fd1490c2813b4c6671d2921d" title="qt4gui::play" alt="" coords="344,5,432,35"/><area shape="rect" href="classqt4gui.html#a0647e14a253c0ab25bd698b6c05afe09" title="qt4gui::qt4gui" alt="" coords="481,5,580,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3ee88e083f5c2674f44a728328559efe"></a><!-- doxytag: member="CFaceTrack::Release" ref="a3ee88e083f5c2674f44a728328559efe" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CFaceTrack::Release </td>
+          <td>(</td>
+          <td class="paramtype">void&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Rilascia le risorse occupate in memoria. </p>
+
+</div>
+</div>
+<a class="anchor" id="aabcce4707596d5547d7ef3115d6acaf2"></a><!-- doxytag: member="CFaceTrack::showImage" ref="aabcce4707596d5547d7ef3115d6acaf2" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CFaceTrack::showImage </td>
+          <td>(</td>
+          <td class="paramtype">void&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Mostra una finestra con il risultato delle elaborazioni sul rilevamento dei volti. </p>
+
+<p><div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dynsection">
+<div class="center"><img src="class_c_face_track_aabcce4707596d5547d7ef3115d6acaf2_icgraph.png" border="0" usemap="#class_c_face_track_aabcce4707596d5547d7ef3115d6acaf2_icgraph_map" alt=""></div>
+<map name="class_c_face_track_aabcce4707596d5547d7ef3115d6acaf2_icgraph_map" id="class_c_face_track_aabcce4707596d5547d7ef3115d6acaf2_icgraph">
+<area shape="rect" href="class_c_game.html#a0bb869f757fe995091503e6392cdf791" title="CGame::gameLoop" alt="" coords="219,5,352,35"/><area shape="rect" href="classqt4gui.html#a73f0cd58fd1490c2813b4c6671d2921d" title="qt4gui::play" alt="" coords="400,5,488,35"/><area shape="rect" href="classqt4gui.html#a0647e14a253c0ab25bd698b6c05afe09" title="qt4gui::qt4gui" alt="" coords="537,5,636,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>La documentazione per questa classe è stata generata a partire dai seguenti file:<ul>
+<li>src/<a class="el" href="face_track_8h_source.html">faceTrack.h</a></li>
+<li>src/<a class="el" href="face_track_8cpp.html">faceTrack.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Definizioni</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address style="text-align: right;"><small>Generato il Tue Aug 31 17:13:07 2010 per FacePad da&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

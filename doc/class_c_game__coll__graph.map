@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_c_graphics.html" title="CGraphics" alt="" coords="5,5,88,35"/>
+<area shape="rect" href="$class_c_face_track.html" title="CFaceTrack" alt="" coords="112,5,203,35"/>
+<area shape="rect" href="$class_c_asteroid.html" title="CAsteroid" alt="" coords="227,5,304,35"/>
+</map>

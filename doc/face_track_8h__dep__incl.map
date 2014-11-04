@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$game_8cpp.html" title="src/game.cpp" alt="" coords="5,83,104,112"/>
+<area shape="rect" href="$game_8h.html" title="src/game.h" alt="" coords="152,83,237,112"/>
+<area shape="rect" href="$moc__qt4gui_8cpp.html" title="src/Qt4/moc_qt4gui.cpp" alt="" coords="21,160,181,189"/>
+<area shape="rect" href="$qt4gui_8h.html" title="src/Qt4/qt4gui.h" alt="" coords="229,160,344,189"/>
+<area shape="rect" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="171,237,267,267"/>
+<area shape="rect" href="$qt4gui_8cpp.html" title="src/Qt4/qt4gui.cpp" alt="" coords="291,237,419,267"/>
+</map>

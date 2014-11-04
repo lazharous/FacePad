@@ -1,0 +1,25 @@
+<map id="G" name="G">
+<area shape="rect" href="$classqt4gui.html#a73f0cd58fd1490c2813b4c6671d2921d" title="qt4gui::play" alt="" coords="173,376,261,405"/>
+<area shape="rect" href="$classui__qt4gui.html#a5131673a170076ad5e36746b96e3e7df" title="Si occupa di inizializzare la grafica." alt="" coords="155,429,280,459"/>
+<area shape="rect" href="$class_c_game.html#a0bb869f757fe995091503e6392cdf791" title="CGame::gameLoop" alt="" coords="339,376,472,405"/>
+<area shape="rect" href="$class_c_game.html#a64ad0ef38a9552470c69f7b98462b41e" title="Inizializza il gioco." alt="" coords="343,85,468,115"/>
+<area shape="rect" href="$class_c_graphics.html#ab27e90f3091be3b5f6ea46b71899a637" title="CGraphics::blitImage" alt="" coords="752,429,896,459"/>
+<area shape="rect" href="$class_c_face_track.html#a1659e03f79cd48e2b6f17b26e3d7a23a" title="CFaceTrack::Capture" alt="" coords="545,219,689,248"/>
+<area shape="rect" href="$class_c_game.html#a40ec8367465e8075ef265f9ce15aace9" title="CGame::checkCollisions" alt="" coords="536,165,699,195"/>
+<area shape="rect" href="$class_c_face_track.html#a7a0b3bfa0ef994a86e9dc069d089a59c" title="CFaceTrack::doTracking" alt="" coords="536,323,699,352"/>
+<area shape="rect" href="$class_c_game.html#aa36160a5af077e38cdfb3694bea450b5" title="CGame::getPosition" alt="" coords="549,376,685,405"/>
+<area shape="rect" href="$class_c_game.html#a58db795bfb1f754ca6a82007eb379ef3" title="CGame::moveCharacter" alt="" coords="537,429,697,459"/>
+<area shape="rect" href="$class_c_graphics.html#a453a2d91f8f69e09ab30a2d6b41e70dc" title="Esegue il polling per controllare se ci sono eventuali richieste in attesa da processare..." alt="" coords="543,483,692,512"/>
+<area shape="rect" href="$class_c_game.html#a5b9f9cb36622d68d1e51ecd9de6c262f" title="Genera degl asteroidi casualmente nel gioco." alt="" coords="532,536,703,565"/>
+<area shape="rect" href="$class_c_face_track.html#aabcce4707596d5547d7ef3115d6acaf2" title="Mostra una finestra con il risultato delle elaborazioni sul rilevamento dei volti..." alt="" coords="535,589,700,619"/>
+<area shape="rect" href="$class_c_graphics.html#adef948f54b10a6711ab7350fdd3b86f1" title="Aggiorna la schermata e la disegna a video." alt="" coords="532,643,703,672"/>
+<area shape="rect" href="$class_c_asteroid.html#a2c0617eb6fc6a923880870b8c2f8c1c9" title="CAsteroid::getX" alt="" coords="768,139,880,168"/>
+<area shape="rect" href="$class_c_asteroid.html#a5e38853422966c54590bc51bacdd9732" title="CAsteroid::getY" alt="" coords="768,192,880,221"/>
+<area shape="rect" href="$class_c_asteroid.html#abf4ac170dcd186fe6c80f8f5fa5d94f9" title="CAsteroid::Create" alt="" coords="763,483,885,512"/>
+<area shape="rect" href="$class_c_asteroid.html#a2cca9906c2bf1dc2b6b14cde0038b853" title="Imposta la visibilita&#39; dell&#39;asteroide." alt="" coords="755,536,893,565"/>
+<area shape="rect" href="$class_c_asteroid.html#abed3d32bb50047d4e0658259f44182f3" title="CAsteroid::Update" alt="" coords="761,589,887,619"/>
+<area shape="rect" href="$class_c_face_track.html#ae31f8592e2e39d9af9453224505c1e25" title="CFaceTrack::Init" alt="" coords="559,59,676,88"/>
+<area shape="rect" href="$class_c_graphics.html#a84db12372cf8984abfc127ad917f8f87" title="CGraphics::loadImage" alt="" coords="543,112,692,141"/>
+<area shape="rect" href="$class_c_graphics.html#a9628c6c3486166d7c7abc373c7189684" title="CGraphics::setAlpha" alt="" coords="547,5,688,35"/>
+<area shape="rect" href="$classui__qt4gui.html#a4f7098413eb1b1a2b24c36b92917ac82" title="Aggiunge alcune proprieta&#39; alla GUI." alt="" coords="328,429,483,459"/>
+</map>

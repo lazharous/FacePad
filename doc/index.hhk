@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="face_track_8h.html"><param name="Name" value="_DEBUG_"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="_PG_VEL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="_POS_LEFT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="_POS_RIGHT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="_POS_STEADY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="blitImage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="Capture"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="CAsteroid"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="CAsteroid"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="Create"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="getActive"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="getVel"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="getX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="getY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="setActive"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="Update"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_position.html"><param name="Name" value="center"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="centralWidget"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="CFaceTrack"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="Capture"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="CFaceTrack"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="Destroy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="doTracking"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="Release"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="showImage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="CGame"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="CGame"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="checkCollisions"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="gameLoop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="getPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="initGame"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="moveCharacter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="randomAsteroids"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="~CGame"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="CGraphics"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="blitImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="loadImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="pollEvents"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="setAlpha"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="updateScreen"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classqt4gui.html"><param name="Name" value="changeEvent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="checkCollisions"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="Create"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="graphics_8h.html"><param name="Name" value="DEPTH"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="Destroy"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="doTracking"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="face_track_8cpp.html"><param name="Name" value="faceCascadeName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="face_track_8cpp.html"><param name="Name" value="faceTrack.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="face_track_8cpp.html"><param name="Name" value="faceCascadeName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="face_track_8cpp.html"><param name="Name" value="wndName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="face_track_8h.html"><param name="Name" value="faceTrack.h"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="game.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="_PG_VEL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="_POS_LEFT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="_POS_RIGHT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="_POS_STEADY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="MAX_ASTEROIDS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="gameLoop"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="getActive"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="getPosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="getVel"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="getX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="getY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="graphics_8h.html"><param name="Name" value="graphics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="graphics_8h.html"><param name="Name" value="DEPTH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="graphics_8h.html"><param name="Name" value="HEIGHT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="graphics_8h.html"><param name="Name" value="WIDTH"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="graphics_8h.html"><param name="Name" value="HEIGHT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="Init"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="CFaceTrack"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="CGraphics"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="initGame"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="lbl1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="loadImage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html"><param name="Name" value="main.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html"><param name="Name" value="main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="game_8h.html"><param name="Name" value="MAX_ASTEROIDS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="moveCharacter"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classqt4gui.html"><param name="Name" value="play"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="pollEvents"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_position.html"><param name="Name" value="Position"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_position.html"><param name="Name" value="center"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_position.html"><param name="Name" value="radius"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_position.html"><param name="Name" value="set"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="pshClose"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="pshPlay"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classqt4gui.html"><param name="Name" value="qt4gui"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classqt4gui.html"><param name="Name" value="changeEvent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classqt4gui.html"><param name="Name" value="play"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classqt4gui.html"><param name="Name" value="qt4gui"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classqt4gui.html"><param name="Name" value="~qt4gui"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_position.html"><param name="Name" value="radius"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="randomAsteroids"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="Release"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="retranslateUi"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_position.html"><param name="Name" value="set"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="setActive"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="setAlpha"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="setupUi"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_face_track.html"><param name="Name" value="showImage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="ui_qt4gui"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="centralWidget"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="lbl1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="pshClose"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="pshPlay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="retranslateUi"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classui__qt4gui.html"><param name="Name" value="setupUi"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_asteroid.html"><param name="Name" value="Update"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_graphics.html"><param name="Name" value="updateScreen"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="graphics_8h.html"><param name="Name" value="WIDTH"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="face_track_8cpp.html"><param name="Name" value="wndName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_c_game.html"><param name="Name" value="~CGame"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classqt4gui.html"><param name="Name" value="~qt4gui"></OBJECT>
+</UL>
+</BODY>
+</HTML>

@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_c_graphics.html#ab27e90f3091be3b5f6ea46b71899a637" title="CGraphics::blitImage" alt="" coords="408,297,552,327"/>
+<area shape="rect" href="$class_c_face_track.html#a1659e03f79cd48e2b6f17b26e3d7a23a" title="CFaceTrack::Capture" alt="" coords="201,85,345,115"/>
+<area shape="rect" href="$class_c_game.html#a40ec8367465e8075ef265f9ce15aace9" title="CGame::checkCollisions" alt="" coords="192,32,355,61"/>
+<area shape="rect" href="$class_c_face_track.html#a7a0b3bfa0ef994a86e9dc069d089a59c" title="CFaceTrack::doTracking" alt="" coords="192,192,355,221"/>
+<area shape="rect" href="$class_c_game.html#aa36160a5af077e38cdfb3694bea450b5" title="CGame::getPosition" alt="" coords="205,245,341,275"/>
+<area shape="rect" href="$class_c_game.html#a58db795bfb1f754ca6a82007eb379ef3" title="CGame::moveCharacter" alt="" coords="193,139,353,168"/>
+<area shape="rect" href="$class_c_graphics.html#a453a2d91f8f69e09ab30a2d6b41e70dc" title="Esegue il polling per controllare se ci sono eventuali richieste in attesa da processare..." alt="" coords="199,349,348,379"/>
+<area shape="rect" href="$class_c_game.html#a5b9f9cb36622d68d1e51ecd9de6c262f" title="Genera degl asteroidi casualmente nel gioco." alt="" coords="188,403,359,432"/>
+<area shape="rect" href="$class_c_face_track.html#aabcce4707596d5547d7ef3115d6acaf2" title="Mostra una finestra con il risultato delle elaborazioni sul rilevamento dei volti..." alt="" coords="191,456,356,485"/>
+<area shape="rect" href="$class_c_graphics.html#adef948f54b10a6711ab7350fdd3b86f1" title="Aggiorna la schermata e la disegna a video." alt="" coords="188,509,359,539"/>
+<area shape="rect" href="$class_c_asteroid.html#a2c0617eb6fc6a923880870b8c2f8c1c9" title="CAsteroid::getX" alt="" coords="424,5,536,35"/>
+<area shape="rect" href="$class_c_asteroid.html#a5e38853422966c54590bc51bacdd9732" title="CAsteroid::getY" alt="" coords="424,59,536,88"/>
+<area shape="rect" href="$class_c_asteroid.html#abf4ac170dcd186fe6c80f8f5fa5d94f9" title="CAsteroid::Create" alt="" coords="419,351,541,380"/>
+<area shape="rect" href="$class_c_asteroid.html#a2cca9906c2bf1dc2b6b14cde0038b853" title="Imposta la visibilita&#39; dell&#39;asteroide." alt="" coords="411,404,549,433"/>
+<area shape="rect" href="$class_c_asteroid.html#abed3d32bb50047d4e0658259f44182f3" title="CAsteroid::Update" alt="" coords="417,457,543,487"/>
+</map>

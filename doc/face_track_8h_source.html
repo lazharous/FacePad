@@ -1,0 +1,121 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>FacePad:  File sorgente src/faceTrack.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Generato da Doxygen 1.6.3 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Pagina&nbsp;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Classi</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Elenco&nbsp;dei&nbsp;file</span></a></li>
+      <li><a href="globals.html"><span>Membri&nbsp;dei&nbsp;file</span></a></li>
+    </ul>
+  </div>
+<h1>src/faceTrack.h</h1><a href="face_track_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef _TRACK_FACE_</span>
+<a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define _TRACK_FACE_</span>
+<a name="l00003"></a>00003 <span class="preprocessor"></span>
+<a name="l00004"></a>00004 <span class="preprocessor">#include &quot;cv.h&quot;</span>
+<a name="l00005"></a>00005 <span class="preprocessor">#include &quot;highgui.h&quot;</span>
+<a name="l00006"></a>00006 <span class="preprocessor">#include &lt;iostream&gt;</span>
+<a name="l00007"></a>00007 <span class="preprocessor">#include &lt;cstdio&gt;</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a><a class="code" href="face_track_8h.html#a1cb996bb5c8d0991d1456a6e5df88bce">00009</a> <span class="preprocessor">#define _DEBUG_</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span>
+<a name="l00011"></a>00011 <span class="keyword">using namespace </span>std;
+<a name="l00012"></a>00012 <span class="keyword">using namespace </span>cv;
+<a name="l00013"></a>00013 
+<a name="l00017"></a>00017 <span class="keyword">const</span> <span class="keyword">static</span> Scalar colors[] =
+<a name="l00018"></a>00018 {
+<a name="l00019"></a>00019   CV_RGB(0,0,255),
+<a name="l00020"></a>00020   CV_RGB(0,128,255),
+<a name="l00021"></a>00021   CV_RGB(0,255,255),
+<a name="l00022"></a>00022   CV_RGB(0,255,0),
+<a name="l00023"></a>00023   CV_RGB(255,128,0),
+<a name="l00024"></a>00024   CV_RGB(255,255,0),
+<a name="l00025"></a>00025   CV_RGB(255,0,0),
+<a name="l00026"></a>00026   CV_RGB(255,0,255)
+<a name="l00027"></a>00027 };
+<a name="l00028"></a>00028 
+<a name="l00031"></a><a class="code" href="struct_position.html">00031</a> <span class="keyword">typedef</span> <span class="keyword">struct</span>
+<a name="l00032"></a>00032 {
+<a name="l00033"></a><a class="code" href="struct_position.html#aa56444be37071311cfa11aae3e2c2f64">00033</a>   Point center; 
+<a name="l00034"></a><a class="code" href="struct_position.html#aed129fa33ed524be9ce00955e1b4c648">00034</a>   <span class="keywordtype">int</span> radius; 
+<a name="l00035"></a><a class="code" href="struct_position.html#a257986ea41533cda73de4a72d77ca2b5">00035</a>   <span class="keywordtype">int</span> <span class="keyword">set</span>; 
+<a name="l00036"></a>00036 } <a class="code" href="struct_position.html">Position</a>;
+<a name="l00037"></a>00037 
+<a name="l00042"></a><a class="code" href="class_c_face_track.html">00042</a> <span class="keyword">class </span><a class="code" href="class_c_face_track.html">CFaceTrack</a>
+<a name="l00043"></a>00043 {
+<a name="l00044"></a>00044   <span class="keyword">public</span>:
+<a name="l00046"></a>00046     <a class="code" href="class_c_face_track.html#ad4fbec10cb10171caec26ac9edf1d93a" title="Imposta i valori di base per l&amp;#39;utilizzo corretto della classe.">CFaceTrack</a>();
+<a name="l00047"></a>00047 
+<a name="l00051"></a>00051     <span class="keywordtype">int</span> <a class="code" href="class_c_face_track.html#ae31f8592e2e39d9af9453224505c1e25">Init</a>();
+<a name="l00052"></a>00052 
+<a name="l00054"></a>00054     <span class="keywordtype">void</span> <a class="code" href="class_c_face_track.html#a7733a7e6a059d9e9016912388a044714" title="Si occupa di eliminare la finestra.">Destroy</a>();
+<a name="l00055"></a>00055 
+<a name="l00063"></a>00063     <a class="code" href="struct_position.html">Position</a> <a class="code" href="class_c_face_track.html#a7a0b3bfa0ef994a86e9dc069d089a59c">doTracking</a>(<a class="code" href="struct_position.html">Position</a> &amp;start);
+<a name="l00064"></a>00064 
+<a name="l00066"></a>00066     <span class="keywordtype">void</span> <a class="code" href="class_c_face_track.html#aabcce4707596d5547d7ef3115d6acaf2" title="Mostra una finestra con il risultato delle elaborazioni sul rilevamento dei volti...">showImage</a>();
+<a name="l00067"></a>00067 
+<a name="l00069"></a>00069     <span class="keywordtype">void</span> <a class="code" href="class_c_face_track.html#a3ee88e083f5c2674f44a728328559efe" title="Rilascia le risorse occupate in memoria.">Release</a>();
+<a name="l00070"></a>00070 
+<a name="l00074"></a>00074     <span class="keywordtype">void</span> <a class="code" href="class_c_face_track.html#a1659e03f79cd48e2b6f17b26e3d7a23a">Capture</a>();
+<a name="l00075"></a>00075 
+<a name="l00076"></a>00076   <span class="keyword">private</span>:
+<a name="l00079"></a>00079     <span class="keywordtype">double</span> scale;
+<a name="l00081"></a>00081     vector&lt;Rect&gt; face;
+<a name="l00082"></a>00082     Mat img;
+<a name="l00083"></a>00083     CvCapture* capture;
+<a name="l00084"></a>00084     CascadeClassifier faceCascade;
+<a name="l00085"></a>00085 };
+<a name="l00086"></a>00086 
+<a name="l00087"></a>00087 <span class="preprocessor">#endif //_TRACK_FACE_</span>
+</pre></div></div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Definizioni</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address style="text-align: right;"><small>Generato il Tue Aug 31 17:13:05 2010 per FacePad da&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

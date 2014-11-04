@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$asteroid_8h.html" title="src/asteroid.h" alt="" coords="84,83,183,112"/>
+<area shape="rect" href="$game_8cpp.html" title="src/game.cpp" alt="" coords="5,160,104,189"/>
+<area shape="rect" href="$game_8h.html" title="src/game.h" alt="" coords="168,160,253,189"/>
+<area shape="rect" href="$graphics_8cpp.html" title="src/graphics.cpp" alt="" coords="257,83,375,112"/>
+<area shape="rect" href="$moc__qt4gui_8cpp.html" title="src/Qt4/moc_qt4gui.cpp" alt="" coords="37,237,197,267"/>
+<area shape="rect" href="$qt4gui_8h.html" title="src/Qt4/qt4gui.h" alt="" coords="245,237,360,267"/>
+<area shape="rect" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="187,315,283,344"/>
+<area shape="rect" href="$qt4gui_8cpp.html" title="src/Qt4/qt4gui.cpp" alt="" coords="307,315,435,344"/>
+</map>

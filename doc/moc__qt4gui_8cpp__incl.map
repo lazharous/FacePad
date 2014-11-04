@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$game_8h.html" title="game.h" alt="" coords="1467,83,1531,112"/>
+<area shape="rect" href="$face_track_8h.html" title="faceTrack.h" alt="" coords="1373,160,1461,189"/>
+<area shape="rect" href="$graphics_8h.html" title="graphics.h" alt="" coords="1535,237,1615,267"/>
+<area shape="rect" href="$asteroid_8h.html" title="asteroid.h" alt="" coords="1536,160,1613,189"/>
+</map>

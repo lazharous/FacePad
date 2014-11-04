@@ -1,0 +1,132 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>FacePad:  File sorgente src/Qt4/ui_qt4gui.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Generato da Doxygen 1.6.3 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Pagina&nbsp;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Classi</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Elenco&nbsp;dei&nbsp;file</span></a></li>
+      <li><a href="globals.html"><span>Membri&nbsp;dei&nbsp;file</span></a></li>
+    </ul>
+  </div>
+<h1>src/Qt4/ui_qt4gui.h</h1><a href="ui__qt4gui_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef _UI_QT4GUI_H_</span>
+<a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define _UI_QT4GUI_H_</span>
+<a name="l00003"></a>00003 <span class="preprocessor"></span>
+<a name="l00004"></a>00004 <span class="preprocessor">#include &lt;QtCore/QVariant&gt;</span>
+<a name="l00005"></a>00005 <span class="preprocessor">#include &lt;QtGui/QAction&gt;</span>
+<a name="l00006"></a>00006 <span class="preprocessor">#include &lt;QtGui/QApplication&gt;</span>
+<a name="l00007"></a>00007 <span class="preprocessor">#include &lt;QtGui/QButtonGroup&gt;</span>
+<a name="l00008"></a>00008 <span class="preprocessor">#include &lt;QtGui/QHeaderView&gt;</span>
+<a name="l00009"></a>00009 <span class="preprocessor">#include &lt;QtGui/QLabel&gt;</span>
+<a name="l00010"></a>00010 <span class="preprocessor">#include &lt;QtGui/QMainWindow&gt;</span>
+<a name="l00011"></a>00011 <span class="preprocessor">#include &lt;QtGui/QPushButton&gt;</span>
+<a name="l00012"></a>00012 <span class="preprocessor">#include &lt;QtGui/QWidget&gt;</span>
+<a name="l00013"></a>00013 
+<a name="l00014"></a>00014 QT_BEGIN_NAMESPACE
+<a name="l00015"></a>00015 
+<a name="l00019"></a><a class="code" href="classui__qt4gui.html">00019</a> <span class="keyword">class </span><a class="code" href="classui__qt4gui.html">ui_qt4gui</a>
+<a name="l00020"></a>00020 {
+<a name="l00021"></a>00021 <span class="keyword">public</span>:
+<a name="l00023"></a><a class="code" href="classui__qt4gui.html#a70b29d349fb4f3428b9fa0d175ded178">00023</a>     QWidget *<a class="code" href="classui__qt4gui.html#a70b29d349fb4f3428b9fa0d175ded178" title="Contiene l&amp;#39;indice della finestra.">centralWidget</a>;
+<a name="l00025"></a><a class="code" href="classui__qt4gui.html#ad91295b9d306cb11d23b53f15637aead">00025</a>     QLabel *<a class="code" href="classui__qt4gui.html#ad91295b9d306cb11d23b53f15637aead" title="Contiene una label.">lbl1</a>;
+<a name="l00027"></a><a class="code" href="classui__qt4gui.html#a6b4c982169326792d0048adbe9fcf250">00027</a>     QPushButton *<a class="code" href="classui__qt4gui.html#a6b4c982169326792d0048adbe9fcf250" title="Bottone usato per far partire il &amp;quot;gioco&amp;quot; (you lost the game) :].">pshPlay</a>;
+<a name="l00029"></a><a class="code" href="classui__qt4gui.html#ab6a00f3a330f954ff2d1feced19b6d87">00029</a>     QPushButton *<a class="code" href="classui__qt4gui.html#ab6a00f3a330f954ff2d1feced19b6d87" title="Bottone usato per chiudere la finestra Qt.">pshClose</a>;
+<a name="l00030"></a>00030 
+<a name="l00032"></a><a class="code" href="classui__qt4gui.html#a5131673a170076ad5e36746b96e3e7df">00032</a>     <span class="keywordtype">void</span> <a class="code" href="classui__qt4gui.html#a5131673a170076ad5e36746b96e3e7df" title="Si occupa di inizializzare la grafica.">setupUi</a>(QMainWindow *<a class="code" href="classqt4gui.html">qt4gui</a>)
+<a name="l00033"></a>00033     {
+<a name="l00034"></a>00034         <span class="keywordflow">if</span> (qt4gui-&gt;objectName().isEmpty())
+<a name="l00035"></a>00035             qt4gui-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;qt4gui&quot;</span>));
+<a name="l00036"></a>00036 
+<a name="l00037"></a>00037         qt4gui-&gt;resize(388, 101);
+<a name="l00038"></a>00038 
+<a name="l00039"></a>00039         <span class="comment">// Inizializza la finestra</span>
+<a name="l00040"></a>00040         <a class="code" href="classui__qt4gui.html#a70b29d349fb4f3428b9fa0d175ded178" title="Contiene l&amp;#39;indice della finestra.">centralWidget</a> = <span class="keyword">new</span> QWidget(qt4gui);
+<a name="l00041"></a>00041         <a class="code" href="classui__qt4gui.html#a70b29d349fb4f3428b9fa0d175ded178" title="Contiene l&amp;#39;indice della finestra.">centralWidget</a>-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;centralWidget&quot;</span>));
+<a name="l00042"></a>00042         
+<a name="l00043"></a>00043         <span class="comment">// Crea la label, le da il nome e la posiziona</span>
+<a name="l00044"></a>00044         <a class="code" href="classui__qt4gui.html#ad91295b9d306cb11d23b53f15637aead" title="Contiene una label.">lbl1</a> = <span class="keyword">new</span> QLabel(<a class="code" href="classui__qt4gui.html#a70b29d349fb4f3428b9fa0d175ded178" title="Contiene l&amp;#39;indice della finestra.">centralWidget</a>);
+<a name="l00045"></a>00045         <a class="code" href="classui__qt4gui.html#ad91295b9d306cb11d23b53f15637aead" title="Contiene una label.">lbl1</a>-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;lbl1&quot;</span>));
+<a name="l00046"></a>00046         <a class="code" href="classui__qt4gui.html#ad91295b9d306cb11d23b53f15637aead" title="Contiene una label.">lbl1</a>-&gt;setGeometry(QRect(10, 10, 371, 17));
+<a name="l00047"></a>00047 
+<a name="l00048"></a>00048         <span class="comment">// Crea il bottone di avvio gioco, gli da il nome e lo posiziona</span>
+<a name="l00049"></a>00049         <a class="code" href="classui__qt4gui.html#a6b4c982169326792d0048adbe9fcf250" title="Bottone usato per far partire il &amp;quot;gioco&amp;quot; (you lost the game) :].">pshPlay</a> = <span class="keyword">new</span> QPushButton(<a class="code" href="classui__qt4gui.html#a70b29d349fb4f3428b9fa0d175ded178" title="Contiene l&amp;#39;indice della finestra.">centralWidget</a>);
+<a name="l00050"></a>00050         <a class="code" href="classui__qt4gui.html#a6b4c982169326792d0048adbe9fcf250" title="Bottone usato per far partire il &amp;quot;gioco&amp;quot; (you lost the game) :].">pshPlay</a>-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;pshPlay&quot;</span>));
+<a name="l00051"></a>00051         <a class="code" href="classui__qt4gui.html#a6b4c982169326792d0048adbe9fcf250" title="Bottone usato per far partire il &amp;quot;gioco&amp;quot; (you lost the game) :].">pshPlay</a>-&gt;setGeometry(QRect(280, 60, 93, 27));
+<a name="l00052"></a>00052 
+<a name="l00053"></a>00053         <span class="comment">// Crea il bottone di uscita, gli da il nome e lo posiziona</span>
+<a name="l00054"></a>00054         <a class="code" href="classui__qt4gui.html#ab6a00f3a330f954ff2d1feced19b6d87" title="Bottone usato per chiudere la finestra Qt.">pshClose</a> = <span class="keyword">new</span> QPushButton(<a class="code" href="classui__qt4gui.html#a70b29d349fb4f3428b9fa0d175ded178" title="Contiene l&amp;#39;indice della finestra.">centralWidget</a>);
+<a name="l00055"></a>00055         <a class="code" href="classui__qt4gui.html#ab6a00f3a330f954ff2d1feced19b6d87" title="Bottone usato per chiudere la finestra Qt.">pshClose</a>-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;pshClose&quot;</span>));
+<a name="l00056"></a>00056         <a class="code" href="classui__qt4gui.html#ab6a00f3a330f954ff2d1feced19b6d87" title="Bottone usato per chiudere la finestra Qt.">pshClose</a>-&gt;setGeometry(QRect(180, 60, 93, 27));
+<a name="l00057"></a>00057 
+<a name="l00058"></a>00058         qt4gui-&gt;setCentralWidget(<a class="code" href="classui__qt4gui.html#a70b29d349fb4f3428b9fa0d175ded178" title="Contiene l&amp;#39;indice della finestra.">centralWidget</a>);
+<a name="l00059"></a>00059 
+<a name="l00060"></a>00060         <a class="code" href="classui__qt4gui.html#a4f7098413eb1b1a2b24c36b92917ac82" title="Aggiunge alcune proprieta&amp;#39; alla GUI.">retranslateUi</a>(qt4gui);
+<a name="l00061"></a>00061 
+<a name="l00062"></a>00062         QMetaObject::connectSlotsByName(qt4gui);
+<a name="l00063"></a>00063     }
+<a name="l00064"></a>00064 
+<a name="l00066"></a><a class="code" href="classui__qt4gui.html#a4f7098413eb1b1a2b24c36b92917ac82">00066</a>     <span class="keywordtype">void</span> <a class="code" href="classui__qt4gui.html#a4f7098413eb1b1a2b24c36b92917ac82" title="Aggiunge alcune proprieta&amp;#39; alla GUI.">retranslateUi</a>(QMainWindow *<a class="code" href="classqt4gui.html">qt4gui</a>)
+<a name="l00067"></a>00067     {
+<a name="l00068"></a>00068         qt4gui-&gt;setWindowTitle(QApplication::translate(<span class="stringliteral">&quot;qt4gui&quot;</span>, <span class="stringliteral">&quot;qtFacePad - [Mainieri Paolo]&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00069"></a>00069         <a class="code" href="classui__qt4gui.html#ad91295b9d306cb11d23b53f15637aead" title="Contiene una label.">lbl1</a>-&gt;setText(QApplication::translate(<span class="stringliteral">&quot;qt4gui&quot;</span>, <span class="stringliteral">&quot;FacePad, il controller basato sul movimento del volto.&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00070"></a>00070         <a class="code" href="classui__qt4gui.html#a6b4c982169326792d0048adbe9fcf250" title="Bottone usato per far partire il &amp;quot;gioco&amp;quot; (you lost the game) :].">pshPlay</a>-&gt;setText(QApplication::translate(<span class="stringliteral">&quot;qt4gui&quot;</span>, <span class="stringliteral">&quot;Gioca&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00071"></a>00071         <a class="code" href="classui__qt4gui.html#ab6a00f3a330f954ff2d1feced19b6d87" title="Bottone usato per chiudere la finestra Qt.">pshClose</a>-&gt;setText(QApplication::translate(<span class="stringliteral">&quot;qt4gui&quot;</span>, <span class="stringliteral">&quot;Esci&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00072"></a>00072     }
+<a name="l00073"></a>00073 
+<a name="l00074"></a>00074 };
+<a name="l00075"></a>00075 
+<a name="l00076"></a>00076 QT_END_NAMESPACE
+<a name="l00077"></a>00077 
+<a name="l00078"></a>00078 <span class="preprocessor">#endif // _UI_QT4GUI_H_</span>
+</pre></div></div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Definizioni</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address style="text-align: right;"><small>Generato il Tue Aug 31 17:13:05 2010 per FacePad da&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>
